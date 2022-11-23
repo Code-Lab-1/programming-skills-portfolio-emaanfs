@@ -6,31 +6,34 @@ for list in fruit:
     for letters in list:
         print(letters)
 
-#class activity 
+#class activity 2
 student={"name":"emaan fatima","age":"20","course":"cc","gender":"F","nationality":"pakistani"}
 print(student)
 student["name"]="fatima"
 print(student)
-print(student["age"])
+
+#class activity 3
+student={"name":"emaan fatima","age":"20","course":"cc","gender":"F","nationality":"pakistani"}
 print(student.keys())
+student.pop("course")
+print(student["age"])
 del student["age"]
 print(student)
-student.pop("course")
-print(student)
+
+#class activity 4
+student={"name":"emaan fatima","age":"20","course":"cc","gender":"F","nationality":"pakistani"}
 student.update({"email":"emanfs@gmail.com"})
 student.update({"blood group":"B+"})
 print(student)
-if "name" in student:
-    print("name is present")
-else:
-    print("name is not in the dictionary")    
 
-if not "name" in student:
-    print("student name")
-else:
-    print("name not there")    
+#class activity 5
+student={"name":"emaan fatima","age":"20","course":"cc","gender":"F","nationality":"pakistani"}
 student["age"]="30"
 print(student)
 student.popitem()
 print(student)
-        
+if "name" in student:
+    print("name is present")
+else:
+    print("name is not in the dictionary") 
+

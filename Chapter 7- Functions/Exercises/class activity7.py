@@ -29,14 +29,13 @@ def num():
 num()
 
 
-
 #class activity 6
 def info(name,age,course,number):
     print(name,age,course,number)
 info("emaan fatima","20","cs","0683792")
 
 
-#class activity
+#class activity 7
 def favorite_fruits(fruits):
     for x in fruits:
         print(x)
